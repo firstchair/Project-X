@@ -97,5 +97,5 @@ telescope-messages
 telescope-pages
 
 # Custom Packages
-accounts-linkedin
-jeremy:telescope-plugin-hero
+meteorhacks:kadira
+pauli:linkedin

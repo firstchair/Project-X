@@ -1,11 +1,5 @@
 {
   "packages": {
-    "telescope-plugin-hero": {
-      "path": "/Users/lukasfeitsma/Downloads/telescope-plugin-hero"
-    },
-    "telescope-datalook": {
-      "path": "/Users/lukasfeitsma/Downloads/telescope-datalook"
-    },
     "accounts-linkedin": {}
   }
 }

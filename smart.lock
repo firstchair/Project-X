@@ -2,20 +2,17 @@
   "meteor": {},
   "dependencies": {
     "basePackages": {
-      "telescope-plugin-hero": {
-        "path": "../../../../../../../Downloads/telescope-plugin-hero"
-      },
       "telescope-datalook": {
-        "path": "../../../../../../../Downloads/telescope-datalook"
+        "git": "https://github.com/firstchair/telescope-datalook.git",
+        "branch": "master"
       },
       "accounts-linkedin": {}
     },
     "packages": {
-      "telescope-plugin-hero": {
-        "path": "../../../../../../../Downloads/telescope-plugin-hero"
-      },
       "telescope-datalook": {
-        "path": "../../../../../../../Downloads/telescope-datalook"
+        "git": "https://github.com/firstchair/telescope-datalook.git",
+        "branch": "master",
+        "commit": "13fbd2049b9671fbef4b31143aadb1771b6468d3"
       },
       "accounts-linkedin": {
         "git": "https://github.com/yefim/meteor-accounts-linkedin.git",
