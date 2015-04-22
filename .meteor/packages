@@ -76,7 +76,6 @@ telescope-api
 telescope-rss
 telescope-search
 telescope-tags
-telescope-theme-hubble
 telescope-email
 telescope-embedly
 telescope-newsletter
@@ -99,3 +98,5 @@ telescope-pages
 # Custom Packages
 meteorhacks:kadira
 pauli:linkedin
+pauli:accounts-linkedin
+telescope-theme-hubble
