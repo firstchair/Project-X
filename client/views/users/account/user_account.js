@@ -11,7 +11,14 @@ Template[getTemplate('userAccount')].helpers({
   getTwitter: function(){
     return getTwitterName(this) || "";
   },
-  getGitHub: function(){
+  // Commented on 22/04/15
+  // getGitHub: function(){
+  //   return getGitHubName(this) || "";
+  // },
+  getDribbble: function(){
+    return getGitHubName(this) || "";
+  },
+  getBehance: function(){
     return getGitHubName(this) || "";
   },
   profileUrl: function(){
@@ -53,7 +60,9 @@ Template[getTemplate('userAccount')].events({
       "profile.city": $target.find('[name=city]').val(),
       "profile.email": email,
       "profile.twitter": $target.find('[name=twitter]').val(),
-      "profile.github": $target.find('[name=github]').val(),
+      "profile.behance": $target.find('[name=behance]').val(),
+      // "profile.github": $target.find('[name=github]').val(),
+      "profile.dribbble": $target.find('[name=dribbble]').val(),
       "profile.site": $target.find('[name=site]').val(),
       "profile.notifications.users": $('input[name=notifications_users]:checked').length, // only actually used for admins
       "profile.notifications.posts": $('input[name=notifications_posts]:checked').length,

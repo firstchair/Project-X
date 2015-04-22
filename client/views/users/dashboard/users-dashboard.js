@@ -12,9 +12,9 @@ Template[getTemplate('usersDashboard')].helpers({
         { key: 'createdAt', label: 'Member Since', tmpl: Template.users_list_created_at, sort: 'descending' },
         { key: 'postCount', label: 'Posts' },
         { key: 'commentCount', label: 'Comments' },
-        { key: 'karma', label: 'Karma', fn: function(val){return Math.round(100*val)/100} },
-        { key: 'inviteCount', label: 'Invites' },
-        { key: 'isInvited', label: 'Invited', fn: function(val){return val ? 'Yes':'No'} },
+        // { key: 'karma', label: 'Karma', fn: function(val){return Math.round(100*val)/100} },
+        // { key: 'inviteCount', label: 'Invites' },
+        // { key: 'isInvited', label: 'Invited', fn: function(val){return val ? 'Yes':'No'} },
         { key: 'isAdmin', label: 'Admin', fn: function(val){return val ? 'Yes':'No'} },
         { key: 'actions', label: 'Actions', tmpl: Template.users_list_actions, sortable: false }
       ]
