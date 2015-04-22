@@ -30,18 +30,18 @@ Template[getTemplate('user_item')].helpers({
 });
 
 Template[getTemplate('user_item')].events({
-  // 'click .invite-link': function(e, instance){
-  //   e.preventDefault();
-  //   Meteor.call('inviteUser', { userId : instance.data._id });
-  // },
-  // 'click .uninvite-link': function(e, instance){
-  //   e.preventDefault();
-  //   Meteor.users.update(instance.data._id,{
-  //     $set:{
-  //       isInvited: false
-  //     }
-  //   });
-  // },
+  'click .invite-link': function(e, instance){
+    e.preventDefault();
+    Meteor.call('inviteUser', { userId : instance.data._id });
+  },
+  'click .uninvite-link': function(e, instance){
+    e.preventDefault();
+    Meteor.users.update(instance.data._id,{
+      $set:{
+        isInvited: false
+      }
+    });
+  },
   'click .admin-link': function(e, instance){
     e.preventDefault();
     updateAdmin(instance.data._id, true);

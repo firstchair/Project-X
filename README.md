@@ -1,5 +1,3 @@
-Communication and Multimedia Design 'WerkSpot'
+Building a platform on Meteor.
 
-Project X
-
-Build with Meteor, forked from Telescope
+Code is based on Telescope repo

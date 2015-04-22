@@ -10,7 +10,7 @@
 	<td>{{postCount}}</td>
 	<td>{{commentCount}}</td>
 	<td>{{getKarma}}</td>
-	<!-- <td>
+	<td>
 		{{#if invites}}
 		<h4>{{_ "invited"}} {{invitedCount}} {{_ "users"}}:</h4>
 		<ul>
@@ -20,12 +20,12 @@
 		</ul>
 		{{/if}}
 		<p>({{inviteCount}} {{_ "invites_left"}})</p>
-	</td> -->
-	<!-- <td>{{#if isInvited}}<i class="icon-check"></i>{{/if}}</td> -->
+	</td>
+	<td>{{#if isInvited}}<i class="icon-check"></i>{{/if}}</td>
 	<td>{{#if userIsAdmin}}<i class="icon-check"></i>{{/if}}</td>
 	<td>
 		<ul>
-			<!-- <li>{{#if isInvited}}<a class="uninvite-link" href="#">{{_ "uninvite"}}</a>{{else}}<a href="#" class="invite-link">{{_ "invite"}}</a>{{/if}}</li> -->
+			<li>{{#if isInvited}}<a class="uninvite-link" href="#">{{_ "uninvite"}}</a>{{else}}<a href="#" class="invite-link">{{_ "invite"}}</a>{{/if}}</li>
 			<li>{{#if userIsAdmin}}<a class="unadmin-link" href="#">{{_ "unadmin"}}</a>{{else}}<a href="#" class="admin-link">{{_ "make_admin"}}</a>{{/if}}</li>
 			<li><a class="delete-link" href="#">{{_ "delete_user"}}</a></li>
 		</ul>
